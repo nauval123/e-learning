@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulir Persetujuan</title>
+	<style>
+			button{
+			background-color:#D2FAFB;
+			color:#51DACF;
+			border:none;
+			border-radius:5px;
+			font-size:14px;
+			padding:5px;
+		}
+		h1 {
+			color:#2C003E;
+		}
+		h1, h2 {
+			text-align:center;
+		}
+		body{
+			width:100%;
+		}
+	</style>
+</head>
+<body>
+	<h1>Fasilkom</h1>
+	<h2>Formulir Pendaftaran</h2>
+	<form action="formulir.html" method="post">
+	<div class="container">
+	<center><input type="text" placeholder="Nama" value="" name="Nama" required></center>
+	<br>
+	<center><input type="number" placeholder="NIM" value= name="NIM" required></center>
+	<br>
+	<center><input type="password" placeholder="Password"value="" name="Password" required></center>
+	<br>
+	</div>
+		<center><input name="radiobutton" type="radio" value="radiobutton">
+			Laki - Laki</center>
+	<br />
+		<center><input name="radiobutton" type="radio" value="radiobutton">
+			Perempuan</center>
+	<br />
+	<br />
+
+	<center><input type="checkbox" name"Deal"> Saya Menyetujui Persyaratan</center>
+	<br />
+	<center><input type="submit" value="Submit" ></center>
+
+	</form>
+</body>
+</html>
