@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulir Persetujuan</title>
+	<style>
+		.content{
+			overflow: auto;
+			border: 3px solid #666;
+		}
+		.content div{
+			padding : 10px;
+		}
+		.content a {
+			font-family: sans-serif;
+        	color:#23374d;
+        	font-size: 35px;
+        }
+        .content b {
+			font-family: sans-serif;
+        	color:#8105d8;
+        	font-size: 35px;
+        }
+		.blue{
+			float : right;
+			width : 45%;
+			background-color:#1089FF;
+		}
+		.purple{
+			float: left;
+			width : 35%;
+			background-color:#b18ea6;
+		}
+	</style>
+</head>
+<body>
+	<div class="content">
+	<div class="purple">
+		<center><b>Laman Login</b></center>
+		<br>
+		<br>
+		<form action="formulir.html" method="post">
+		<input type="number" placeholder="NIM" value= name="NIM" required>
+		<br>
+		<input type="password" placeholder="Password"value="" name="Password" required>
+		<br>
+		<input type="checkbox" name"Deal"> Saya Menyetujui Persyaratan
+		<br>
+		<input type="submit" value="Submit" >
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		</form>
+	</div>
+	<div class="blue">
+		<center><a>Laman Pendaftaran</a></center>
+		<br>
+		<br>
+		<form action="pendaftaran.html" method="post">
+		<input type="text" placeholder="Nama" value="" name="Nama" required>
+		<br>
+		<input type="number" placeholder="NIM" value= name="NIM" required>
+		<br>
+		<input type="number" placeholder="Nomor Handphone" value= name="Nomor Handphone" required>
+		<br>
+		<input type="password" placeholder="Password"value="" name="Password" required>
+		<br>
+		<input name="radiobutton" type="radio" value="radiobutton">Laki - Laki
+		<br>
+		<input name="radiobutton" type="radio" value="radiobutton">Perempuan
+		<br>
+		<br>
+		<br>
+		<input type="checkbox" name"Deal"> Saya Menyetujui Persyaratan
+		<br />
+		<input type="submit" value="Submit" >
+		</form>
+	</div>
+</body>
+</html>
