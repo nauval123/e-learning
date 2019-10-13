@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width:100%;
+   }
+
+.logo{
+width: 17%;
+transform:translate(0px,10px);
+}
+
+.profil{
+height:3%;
+width: 3%;
+transform:translate(0px,-7px);
+}
+
+.fotoProfil{
+height:209px;
+width:202px;
+border-style: groove;
+border-radius: 25px; 
+transform: translate(146px,-15px);
+}
+
+ .kotak{
+  width: 500px;
+  color:black;
+  position:absolute;
+  transform: translate(500px,-250px);
+  padding: 10px 10px;
+  font-size:20px;
+}
+
+.nama{
+  width: 30%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+
+.kotak1{
+  background:#E5B0EA;
+  border-radius:25px;
+  width: 350px;
+  color:black;
+  position:absolute;
+  border-style: groove;
+  padding: 10px 10px;
+  font-size:20px;
+  transform:translate(250px,25px); 
+  text-align: center;
+}
+
+.kotak2{
+  background:#F1C6C7;
+  border-radius: 25px;
+  height: 300px;
+  width: 350px;
+  color:black;
+  position:absolute;
+  border-style: groove;
+  padding: 10px 10px;
+  font-size:20px;
+  transform:translate(750px,25px);  
+  text-align: center;
+}
+
+.form{
+  box-sizing : border-box;
+  width: 70%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.tombol1{
+  background: #3C9D9B;
+  color: white;
+  font-size: 15px;
+  width: 30%;
+  border: none;
+  position: relative;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 25px; 
+  margin-left: 100px;
+}
+
+.font{
+  font-size:50px;
+}
+
+.fonts{
+  font-size: 20px;
+  text-align: left;
+}
+
+.tombol2{
+background: #1089FF;
+  color: white;
+  font-size: 15px;
+  width: 30%;
+  position: relative;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 25px;
+  margin-left: 100px;
+
+}
+
+.tombol3{
+  background: #FF1020;
+  color: white;
+  font-size: 15px;
+  width: 10%;
+  position: relative;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transform: translate(630px,300px);
+}
+.pilihan{
+  width: 1.5% ;
+  height: 1.5%;
+  border-radius: 25px;
+}
+
+
+.header {
+  font-size:50px;
+  color:#394A6D;
+  text-align: center;
+}
+
+.div {padding-left:12px;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar a {
+  float: right;
+  font-weight: bold;
+  color: #979797;
+  text-align: center;
+  margin-top: 5px;
+  padding-top:15px;
+  padding-left:30px ;
+  padding-right:15px;
+  padding-bottom:-10px ;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  color: #52DE97;
+}
