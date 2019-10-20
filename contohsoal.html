@@ -5,7 +5,7 @@
 <body>
 <link rel="stylesheet" type="text/css" href="style1.css">
 <div class="navbar">
-  <a class="profil" href="#profil"><img src="icon/user.png" width="35" height="35"></a>
+	
   <a href="#login">login</a>
   <a href="#donate">donate</a>
   <a href="#course">course</a>
@@ -15,6 +15,37 @@
 <hr>
 <div class="tengah">
 <h2 align="center" class="header">Contoh Soal</h2>
+<div id="mySidenav" class="sidenav">
+	<ul>
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<div class="dp">
+  			<li><div class="dropdown"><a href="#">Ide Pokok dan Kesimpulan Paragraf</a></li>
+  				<div class=”dropdownln”>
+   					<a href=”#”>1.Penjelasan Materi</a>
+   					<a href=”#”>2.contoh soal</a>
+   					<a href=”#”>3.latihan soal</a>
+   				</div>
+ 		</div>
+  		<br>
+  		<li><a href="#">Memahami dan Menanggapi Bacaan</a></li>
+  		<br>
+  		<li><a href="#">Fakta dan Tanggapan dalam Teks</a></li>
+  		<br>
+  		<li><a href="#">Tajuk Rencana Kata Penghubung dan Kalimat Poster Pengumuman</a></li>
+  	</ul>
+</div>
+<div class="side">
+<span  style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 <form class="kotak">
 	<p >Bacalah dan tentukan simpulan paragraf  berikut!</p>
 	
