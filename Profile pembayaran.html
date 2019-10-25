@@ -13,8 +13,8 @@
 </div>
 <hr>
   <form class="kotak1">
-  		<h2>Paket Intensif</h2>
-		<h3>Rp.150.000</h3>
+  		<h2 class="header1">Paket Intensif</h2>
+		<h3 class="header2">Rp.150.000</h3>
 		<hr>
 		<ul style="list-style-type:none;">
 			<li><img src="icon/check-mark.png" width="20" height="20" class="simbol">Aktif hingga 30 juni 2020</li>
@@ -23,27 +23,28 @@
 			<li><img src="icon/check-mark.png" width="20" height="20" class="simbol">Video animasi pembahasan</li>
 			<li><img src="icon/check-mark.png" width="20" height="20" class="simbol">3 bulan free tutor dan bimbingan online</li>
 			<li><img src="icon/check-mark.png" width="20" height="20" class="simbol">bimbingan SBMPTN & UNBK</li>
-			
-		</ul>		
+		</ul>
+		<input type="button" class="tombol2" value="ubah">		
  </form>
 
 
   <form class="kotak2">
-  		<h2>FREE</h2>
-		<h3>Rp.0</h3>
+  		<h2 class="header1">FREE</h2>
+		<h3 class="header2">Rp.0</h3>
 		<hr>
 		<ul style="list-style-type:none;">
 			<li><img src="icon/check-mark.png" width="20" height="20" class="simbol">Aktif selamanya</li>
 			<li><img src="icon/check-mark.png" width="20" height="20" class="simbol">Materi sesuai kelas kamu saat ini</li>
 			<li><img src="icon/check-mark.png"  width="20" height="20" class="simbol">Materi hingga ribuan materi dan pembahasan</li>
 			<li><img src="icon/check-mark.png" width="20" height="20" class="simbol">Video animasi pembahasan</li>
-		</ul>		
+		</ul>
+		<input type="button" class="tombol1" value="Aktif">		
  </form>
 
 
   <form class="kotak3">
-  		<h2>Paket Regular</h2>
-		<h3>Rp.300.000</h3>
+  		<h2 class="header1">Paket Regular</h2>
+		<h3 class="header2">Rp.300.000</h3>
 		<hr>
 		<ul style="list-style-type:none;">
 			<li><img src="icon/check-mark.png" width="20" height="20" class="simbol">Aktif hingga 30 Juni 2022</li>
@@ -51,9 +52,35 @@
 			<li><img src="icon/check-mark.png" width="20" height="20" class="simbol">Akses hingga ribuan materi dan pembahasan</li>
 			<li><img src="icon/check-mark.png" width="20" height="20" class="simbol">akses hingga ribuan materi dan pembahasan</li>
 			<li><img src="icon/check-mark.png" width="20" height="20" class="simbol">video animasi pembahsan</li>
-			<li><img src="icon/check-mark.png" width="20" height="20" class="simbol">3 bulan free tutor dan bimbingan online</li>
-			
-		</ul>		
+			<li><img src="icon/check-mark.png" width="20" height="20">3 bulan free tutor dan bimbingan online</li>
+		</ul>
+		<input type="button" class="tombol3" value="ubah" onclick="document.getElementById('tp').style.display='block' ">		
  </form>
+
+ <form id="tp" class="kotak" >
+ 	<div class="blok">
+ 	<form>
+  	<label color="#52DE97">cardnumber</label><br>
+	<input type="number" class="nama" required>
+	<br>
+	<label color="#52DE97">Expiry Date</label><br>
+ 	<input type="number" class="nama"  required>
+	<input type="number" class="nama"  required><br>
+	<label>CVV2</label><br>
+	<input type="text"  class="form" required><br>
+	<input type="button" class="tombol4" value="batal"><br>
+	<input type="button" class="tombol5" value="bayar">
+  </form>	
+ </div>
+ </form> 
+<script>
+	var.modal=document.getElementById('tp');
+	window.onclick= function(event){
+	if (event.target==modal){
+		modal.style.display="none";
+		}	
+	}
+
+ </script>
 </body>
 </html>

@@ -118,7 +118,7 @@ background: #1089FF;
 
 }
 
-.tombol3 {
+.tombol3{
   background: #FF1020;
   color: white;
   font-size: 15px;
@@ -128,16 +128,8 @@ background: #1089FF;
   border-radius: 25px;
   font-weight: bold;
   padding: 10px 20px;
-  top:50%;
-  left:50%;
-  text-decoration: none;
+  transform: translate(630px,-100px);
 }
-
-.tombol3 a{
-   font-size: 15px;
-   text-decoration: none;
-}
-
 .pilihan{
   width: 1.5% ;
   height: 1.5%;

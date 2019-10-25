@@ -1,135 +1,97 @@
 body{
-	margin:0;
-	padding : 0;
-	font-family: sans-serif;
-}
-li img{
-  height: 50px;
-  width: 50px;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
-li b {
-  display: block;
-  font-size: 35px;
-  color: #3C9D9B;
+.navbar {
+  background-color: white;
+  height: 10%;
+  width: 100%;
+}
+
+.logo{
+width: 17%;
+transform:translate(0px,10px);
+}
+
+
+.main p{
+  position:absolute;
+  left:50%;
+  top:10%;
+  font-size: 40px;
+}
+
+.main h3{
+  position:absolute;
+  top:48%;
+  left:49%;
+}
+
+.UN{
+  position:absolute;
+  top:40%;
+  left:43%;  
+  width:20%;
+  height:5%;
+  border-radius: 25px;
+  border-color: #1089FF;
+  border-style: solid;
   text-align: center;
-  padding: 20px 16px;
+}
+
+.UI{
+  position:absolute;
+  top:30%;
+  left:43%;  
+  width:20%;
+  height:5%;
+  border-radius: 25px;
+  border-color: #1089FF;
+  border-style: solid;
+  text-align:center;
+}
+
+.cb{
+  position:absolute;
+  top:50%;
+  left:45%;
+  width: 3.7%;
+  height:3.7%;
+  border-radius: 25px;
+  border-color: #1089FF;
+}
+
+.tombol1{
+  background: #52DE97;
+  color: white;
+  font-size: 15px;
+  width: 10%;
+  position: absolute;
+  border-radius: 15px;
+  border-style: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  top:60%;
+  left: 46%;
   text-decoration: none;
+  text-align: center;
 }
 
-
-li c {
-  display: block;
-  font-size: 35px;
-  color: #52DE97;
-  text-align: left;
+.tombol2{
+  background: #979797;
+  color: white;
+  font-size: 15px;
+  width: 10%;
+  position: absolute;
+  border-radius: 15px;
+  border-style: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  top:70%;
+  left: 46%;
   text-decoration: none;
-  padding: 20px 0px;
+  text-align: center;
 }
-
-.box{
-	height: 600px;
-	width : 200px;
-	padding : 40px;
-	position : absolute;
-	top : 20%;
-	left : 45%;
-	text-align: center;
-}
-.box h1{
-	color : #394A6D;
-	font-weight: 500;
-	text-align: center;
-}
-.box input[type="text"],.box select,.box input[type="number"],.box input[type="password"]{
-	border : 0;
-	background : none;
-	display : block;
-	margin : 20px auto;
-	text-align: center;
-	border : 2px solid #3498db;
-	padding : 14px 10px;
-	width :200px;
-	outline : none;
-	color : black;
-	border-radius : 24px;
-	transition : 0.25s;
-}
-.box input[type="text"]:focus,.box input[type="number"]:focus,.box select:focus,.box input[type="password"]:focus{
-	width : 240px;
-	border-color :#2ecc71;
-}
-.box input[type = "submit"]{
-	border :0;
-	background : none;
-	display : block;
-	margin : 20px auto;
-	text-align: center;
-	border: 2px solid #2ecc71;
-	padding: 14px 40px;
-	outline : none;
-	color: #394A6D;
-	border-radius: 24px;
-	transition : 0.25s;
-	cursor : pointer;
-}
-.box input[type = "submit"]:hover{
-	background:#2ecc71;
-}
-
-.container {
-	font-family: sans-serif;
-    display: block;
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-weight: : 250;
-    color : #394A6D;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    text-align: center;
-}
-.container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-.checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-}
-.container:hover input ~ .checkmark {
-    background-color: #ccc;
-}
-.container input:checked ~ .checkmark {
-    background-color: #2196F3;
-}
-.checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-.container input:checked ~ .checkmark:after {
-    display: block;
-}
-.container .checkmark:after {
-    left: 10px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-

@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
-<link rel="stylesheet" type="text/css" href="style3.css">
-<div class="navbar">
-  <a class="profil"  href="#profil"><img src="icon/user.png" width="35" height="35"></a>
-  <a class="friend" href="#Friend">Friend</a>
-  <a class="materi" href="#Materi">Materi</a>
-  <a class="Home" href="#Home">Home</a>
-  <img src="gambar/logo.png" class="logo">
-</div>
-<hr>
-  <h2 class=header>Profile</h2>
-  <img src="icon/boy.png" class="fotoProfil">
-  <div class="kotak">
-  <form>
-  	<label>nama</label>
-  	<br>
-	<input type="text" class="nama" placeholder="Christopher">
-	<input type="text"  class="nama" placeholder="Calvin">
-	<br>
-	<label>kelas</label>
-	<br>
-	<input type="text"  class="form" placeholder="SMA kelas 3">
-	<br>
-	<label>Phone</label>
-	<br>
- 	<input type="text"  class="form" placeholder="08988882555">
-	<br>
-	<label>email</label>
-	<br>
-	<input type="text"  class="form" placeholder="christophercalvin@gmail.com">
-	<br>
-	<label>Username</label>
-	<br>
-	<input type="text"  class="form" placeholder="christophercalvin@gmail.com">
-	<br>
-	<input type="button" class="tombol1" value="Simpan Perubahan">
-  </form>
-</div>
-</form>
-</div>
-</body>
+	<head>
+	</head>
+	<body>
+		<link rel="stylesheet" type="text/css" href="style3.css">
+		<div class="navbar">
+  			<a class="profil"  href="#profil"><img src="icon/user.png" width="35" height="35"></a>
+  			<a class="friend" href="#Friend">Friend</a>
+  			<a class="materi" href="#Materi">Materi</a>
+  			<a class="Home" href="#Home">Home</a>
+  			<img src="gambar/logo.png" class="logo">
+		</div>
+		<hr>
+		<form class="body">
+			<h2 class=header>Profile</h2>
+			<img src="icon/boy.png" class="fotoProfil">
+			<div class="kotak">
+  				<form>
+  					<label>nama</label><br>
+					<input type="text" class="nama" placeholder="Christopher">
+					<input type="text"  class="nama" placeholder="Calvin"><br>
+					<label>kelas</label><br>
+					<input type="text"  class="form" placeholder="SMA kelas 3"><br>
+					<label>Phone</label><br>
+ 					<input type="text"  class="form" placeholder="08988882555"><br>
+					<label>email</label><br>
+					<input type="text"  class="form" placeholder="christophercalvin@gmail.com"><br>
+					<label>Username</label><br>
+					<input type="text"  class="form" placeholder="christophercalvin@gmail.com"><br>	
+					<span style="cursor: pointer" onclick="open1()"><input type="button" class="tombol1" value="Simpan Perubahan"></span>
+    			</form>
+			</div>
+			<form class="edit" id="edit1">
+				<div class="edited">
+					<h2 style="text-align:center">Segala perubahakan akan disimpan<p>sekarang?</p></h2>
+					<div class="tomboly">
+						<span style="cursor: pointer" onclick="close1()"><p>Ya</p></span>
+					</div>
+					<div class="tombolt">
+						<span style="cursor: pointer" onclick="close1()"><p>Tidak</p></span>
+					</div>
+				</div>
+			</form>
+			<script >
+				function open1(){document.getElementById("edit1").style.display="block";}
+				function close1(){document.getElementById("edit1").style.display="none";}
+			</script>
+		</form>
+	</body>
 </html>

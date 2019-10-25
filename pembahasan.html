@@ -1,27 +1,81 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
-<link rel="stylesheet" type="text/css" href="style.css">
-<div class="navbar">
-  <a class="profil" href="#profil"><img src="icon/user.png" width="35" height="35"></a>
-  <a href="#Friend">Friend</a>
-  <a href="#Materi">Materi</a>
-  <a href="#Home">Home</a>
-  <img src="gambar/logo.png" class="logo">
+	<head>
+	</head>
+	<body>
+		<link rel="stylesheet" type="text/css" href="style01.css">
+		<div class="navbar">
+		  <a  href="profil siswa.html"><img src="icon/user.png" width="35" height="35"></a>
+		  <a  href="siswa.html">Materi</a>
+		  <a  href="dashboardsiswa.html">Home</a>
+		  <img src="gambar/logo.png" class="logo">
+		</div>
+		<hr>
+		<div class="tengah">
+			<h2 align="center" class="header">latihan Soal</h2>
+			<div id="mySidenav" class="sidenav">
+	<ul>
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<div class="dp">
+  			<li><div class="dropdown"><a href="penjelasan materi.html">Ide Pokok dan Kesimpulan Paragraf</a></li>
+  				<div class=”dropdownln”>
+   					<a href=”penjelasn materi.html”>1.Penjelasan Materi</a>
+   					<a href=”contohsoal.html”>2.contoh soal</a>
+   					<a href=”pembahasan.html”>3.latihan soal</a>
+   				</div>
+ 		</div>
+  		<br>
+  		<li><a href="penjelasan materi.html">Memahami dan Menanggapi Bacaan</a></li>
+  		<br>
+  		<li><a href="penjelasan materi.html">Fakta dan Tanggapan dalam Teks</a></li>
+  		<br>
+  		<li><a href="penjelasan materi.html">Tajuk Rencana Kata Penghubung dan Kalimat Poster Pengumuman</a></li>
+  	</ul>
 </div>
-<hr>
-<div class="tengah">
-<h2 align="center" class="header">contoh soal</h2>
-<form class="kotak">
-	<p >Bacalah dan tentukan simpulan paragraf  berikut!</p>
-	<p>Kesibukan Guruh dalam dunia seni memang tak pernah berhenti. Sebentar lagi, ia akan merilis album dengan kelompok band bernama Kaca Benggala. Nama band diambil dari kisah tradisional. Band ini beraliran musik keras dan beranggotakan enam personal. Band ini bagi Guruh merupakan lanjutan perjuangannya. Rencananya band ini akan dirilis pada Februari 2014.</p>
-	 <p>Gagasan utama paragraf tersebut adalah ....</p>
-	 <p><a href="#a"><img src="icon/letter-a.png" class="pilihan"></a> Rencana lahirnya band Kaca Benggala </p>
-	 <p><a href="#b"><img src="icon/letter-b.png" class="pilihan"></a>Aliran musik band kaca benggala<img src="icon/check.png" widt="20" height="20" ></p>
-	 <p><a href="#c"><img src="icon/letter-c.png" class="pilihan"></a>Peluncuran album  baru Guruh</p>
-	 <p><a href="#d"><img src="icon/letter-d.png" class="pilihan"></a>Kesibukan Guruh dalam seni</p>
+<div class="side">
+<span  style="font-size:30px;cursor:pointer" onclick="openNav()">></span>
 </div>
-</body>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+			<form class="kotak">
+				<p >Bacalah dan tentukan simpulan paragraf  berikut!</p>
+				<p>Kesibukan Guruh dalam dunia seni memang tak pernah berhenti. Sebentar lagi, ia akan merilis album dengan kelompok band bernama Kaca Benggala. Nama band diambil dari kisah tradisional. Band ini beraliran musik keras dan beranggotakan enam personal. Band ini bagi Guruh merupakan lanjutan perjuangannya. Rencananya band ini akan dirilis pada Februari 2014.</p>
+				 <p>Gagasan utama paragraf tersebut adalah ....</p>
+				 <p><span style="cursor:pointer" onclick="open1()"><img src="icon/letter-a.png" class="pilihan">Rencana lahirnya band Kaca Benggala</span> </p>
+				 <p ><span style="cursor:pointer" onclick="open2()"><img src="icon/letter-b.png" class="pilihan" >Aliran musik band kaca benggala</span></p>
+				 <p><span style="cursor:pointer" onclick="open1()"><img src="icon/letter-c.png" class="pilihan">Peluncuran album  baru Guruh</span></p>
+				 <p><span style="cursor:pointer" onclick="open1()"><img src="icon/letter-d.png" class="pilihan">Kesibukan Guruh dalam seni</span></p>
+			</form>
+			<form class="pop1" id="pop1">
+				<div class="isi">
+					<p class="exit"><span style="cursor:pointer" onclick="close2()">X</span></p>
+					<h3>jawaban kamu<text style="color: blue"> benar!</text></h3>
+					<p>kalimat utama terletak  di awal paragraf, sehingga kalimat utama pada paragraf tersebut adalah "D.Kesibukan Guru dalam dunia seni</p>
+					<img src="icon/video.png">
+				</div>
+			</form>
+			<form class="pop2" id="pop2">
+				<div class="isi2">
+					<div class="exit"><span style="cursor: pointer" onclick="close1()">X</span></div>
+					<h3>maaf jawaban kamu<text style="color: red">salah</text></h3>
+					<p>kalimat utama terletak  di awal paragraf,sehingga kalimat utama pada paragraf tersebut adalah "D.Kesibukan Guru dalam dunia seni</p>
+					<img src="icon/video.png">
+				</div>
+			</form>
+			<script >
+				function open2(){document.getElementById("pop1").style.display = "block";}
+				function close2(){document.getElementById("pop1").style.display = "none";}
+				function open1(){document.getElementById("pop2").style.display= "block";}
+				function close1(){document.getElementById("pop2").style.display= "none";}
+			</script>
+		</div>
+	</body>
 </html>

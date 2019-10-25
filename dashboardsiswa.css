@@ -88,6 +88,14 @@ left:15%;
   color: #394A6D;
 }
 
+.kotak1 h1{
+  position: absolute;
+  top:180%;
+  left:10%;
+  color: #394A6D;
+  font-size: 40px;
+}
+
 .kotak2{
   position: absolute; 
  border-style: solid;
@@ -101,7 +109,9 @@ left:15%;
  font-size: 20px;
 }
 
+
 .kotak2 h1{
   text-align: center;
   color: #394A6D;
 }
+

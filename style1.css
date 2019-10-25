@@ -43,10 +43,6 @@ left:8px;
   margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-} 
 
 
 .logo{
@@ -76,6 +72,19 @@ transform:translate(0px,-7px);
   padding: 10px 10px;
   font-size:20px;
 }
+
+ .kotak1{
+  width: 1200px;
+  height: 600px;
+  background: #C0FFB3;
+  color:black;
+  position:absolute;
+  transform: translate(100px,50px);
+  padding: 10px 10px;
+  font-size:20px;
+}
+
+
 .header {
   font-size:50px;
   color:#394A6D;
@@ -88,6 +97,7 @@ transform:translate(0px,-7px);
 .navbar {
   overflow: hidden;
   background-color: white;
+  height: 10%;
 }
 
 .navbar a {
@@ -102,7 +112,14 @@ transform:translate(0px,-7px);
   text-decoration: none;
   font-size: 17px;
 }
+
 .navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  color: #f1f1f1;
+}
+
+
+.video{
+  position:absolute;
+  top: 30%;
+  left:20%;
 }
