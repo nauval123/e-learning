@@ -50,6 +50,10 @@ left:15%;
 }
 
 .kotak1 a{
+  top:170px;
+  left:70%;
+  font-weight: bold;
+  font-size: 30px;
   color:black;
   text-decoration:none;
 }
@@ -105,8 +109,13 @@ left:15%;
 }
 
 .kotak2 a{
+  top:400px;
+  left:70%;
+  font-weight: bold;
+  font-size: 30px;
   color:black;
   text-decoration:none;
+
 }
 
 .kotak2 h1{
