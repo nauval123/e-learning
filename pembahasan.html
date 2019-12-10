@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="Js\style01.js" ></script> 
 	</head>
 	<body>
-		<link rel="stylesheet" type="text/css" href="style01.css">
+		<link rel="stylesheet" type="text/css" href="css\style01.css">
 		<div class="navbar">
 		  <a  href="profil siswa.html"><img src="Icon\user.png" width="35" height="35"></a>
 		  <a  href="siswa.html">Materi</a>
@@ -35,28 +37,19 @@
 <div class="side">
 <span  style="font-size:30px;cursor:pointer" onclick="openNav()">></span>
 </div>
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
 
 			<form class="kotak">
 				<p >Bacalah dan tentukan simpulan paragraf  berikut!</p>
 				<p>Kesibukan Guruh dalam dunia seni memang tak pernah berhenti. Sebentar lagi, ia akan merilis album dengan kelompok band bernama Kaca Benggala. Nama band diambil dari kisah tradisional. Band ini beraliran musik keras dan beranggotakan enam personal. Band ini bagi Guruh merupakan lanjutan perjuangannya. Rencananya band ini akan dirilis pada Februari 2014.</p>
 				 <p>Gagasan utama paragraf tersebut adalah ....</p>
-				 <p><span style="cursor:pointer" onclick="open1()"><img src="Icon\letter-a.png" class="pilihan">Rencana lahirnya band Kaca Benggala</span> </p>
-				 <p ><span style="cursor:pointer" onclick="open2()"><img src="Ico\letter-b.png" class="pilihan" >Aliran musik band kaca benggala</span></p>
-				 <p><span style="cursor:pointer" onclick="open1()"><img src="Icon\letter-c.png" class="pilihan">Peluncuran album  baru Guruh</span></p>
-				 <p><span style="cursor:pointer" onclick="open1()"><img src="Icon\letter-d.png" class="pilihan">Kesibukan Guruh dalam seni</span></p>
+				 <p><span style="cursor:pointer"><img src="Icon\letter-a.png" class="pilihan1">Rencana lahirnya band Kaca Benggala</span> </p>
+				 <p ><span style="cursor:pointer" ><img src="Icon\letter-b.png" class="pilihan2" >Aliran musik band kaca benggala</span></p>
+				 <p><span style="cursor:pointer" ><img src="Icon\letter-c.png" class="pilihan1">Peluncuran album  baru Guruh</span></p>
+				 <p><span style="cursor:pointer" ><img src="Icon\letter-d.png" class="pilihan1">Kesibukan Guruh dalam seni</span></p>
 			</form>
 			<form class="pop1" id="pop1">
 				<div class="isi">
-					<p class="exit"><span style="cursor:pointer" onclick="close2()">X</span></p>
+					<p class="exit"><span style="cursor:pointer" >X</span></p>
 					<h3>jawaban kamu<text style="color: blue"> benar!</text></h3>
 					<p>kalimat utama terletak  di awal paragraf, sehingga kalimat utama pada paragraf tersebut adalah "D.Kesibukan Guru dalam dunia seni</p>
 					<img src="Icon\video.png">
@@ -64,18 +57,24 @@ function closeNav() {
 			</form>
 			<form class="pop2" id="pop2">
 				<div class="isi2">
-					<div class="exit"><span style="cursor: pointer" onclick="close1()">X</span></div>
+					<div class="exit"><span style="cursor: pointer" >X</span></div>
 					<h3>maaf jawaban kamu<text style="color: red">salah</text></h3>
 					<p>kalimat utama terletak  di awal paragraf,sehingga kalimat utama pada paragraf tersebut adalah "D.Kesibukan Guru dalam dunia seni</p>
 					<img src="Icon\video.png">
 				</div>
 			</form>
-			<script >
-				function open2(){document.getElementById("pop1").style.display = "block";}
-				function close2(){document.getElementById("pop1").style.display = "none";}
-				function open1(){document.getElementById("pop2").style.display= "block";}
-				function close1(){document.getElementById("pop2").style.display= "none";}
-			</script>
+			
 		</div>
+		<div class="akhiran">
+        	<h4>Study </h4>
+        	<h5>Vidio</h5>
+        	<br>
+        	<p>Mari bergabung bersama kami</p>
+        	<p>Alamat   : Jalan Pierre Tendean No 34 Tebet-Jakarta Pusat(329293) </p>
+        	<p>Telepon  : (021)55559787</p>
+        	<p>Fax      : (021)98458945</p>
+        	<p>StudyVidio.ac.id</p>
+        	<p>©StudyVidio2019 All Rights Reserved</p> 
+    </div>
 	</body>
 </html>

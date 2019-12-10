@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="Js\slide.js" ></script> 
 </head>
 <body>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css\style.css">
 <div class="navbar">
   <a class="profil"  href="profil siswa.html"><img src="Icon\user.png" width="35" height="35"></a>
   <a href="siswa.html">Materi</a>
@@ -33,18 +35,10 @@
   		<li><a href="penjelasan materi.html#">Tajuk Rencana Kata Penghubung dan Kalimat Poster Pengumuman</a></li>
   	</ul>
 </div>
-<div class="side">
+<div class="side" id="side">
 <span  style="font-size:30px;cursor:pointer" onclick="openNav()">></span>
 </div>
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
 <form class="kotak">
 	<h3 class="header2">A.Ide Pokok</h3>
 	<p>Ide Pokok adalah masalah utama yang dibahas dalam suatu paragraf. Nama lain ide pokok antara lain

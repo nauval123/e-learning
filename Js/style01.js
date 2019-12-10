@@ -1,5 +1,5 @@
 $(document).ready(function(){
-		$('#pilihan1').click(function(){
+		$('.pilihan1').click(function(){
 			$('#pop2').show();
 			$('.kotak').fadeIn();
 		});
@@ -12,3 +12,11 @@ $(document).ready(function(){
 			$('#pop2').hide();
 		});
 	});
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}

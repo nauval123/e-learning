@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width:100%;
+  height: 100%;
+   }
+
+
+.logo{
+width: 17%;
+transform:translate(0px,10px);
+}
+.profil{
+height:3%;
+width: 3%;
+transform:translate(0px,-7px);
+}
+
+.side{
+transform: translate(0px,-134px);
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 67px;
+  left: 0;
+  background-color: #B8DCFF;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav li{
+left:8px;
+}
+
+.sidenav a {
+  padding: 8px px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #060606  ;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.pilihan{
+  width: 1.5% ;
+  height: 1.5%;
+  border-radius: 25px;
+}
+
+ .kotak{
+	width: 1200px;
+	background: #C0FFB3;
+	color:black;
+	position:absolute;
+	transform: translate(100px,50px);
+	Padding: 10px 10px;
+	font-size:20px;
+}
+.header {
+	font-size:50px;
+	color:#394A6D;
+}
+
+.div {padding-left:16px;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  height: 10%;
+}
+
+.navbar a {
+    float: right;
+  color: #979797;
+  text-align: center;
+  margin-top: 5px;
+  padding:10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.dropdown {
+   background-color: #B8DCFF;
+   color: white;
+   border: none;
+   cursor: pointer;
+   padding:20px;
+   margin-top:20px;
+}
+.dp {
+   position: relative;
+   display: inline-block;
+}
+.dropdownln {
+   display: none;
+   background-color: black;
+   min-width: 200px;
+}
+.dropdownln a {
+   color: white;
+   padding: 20px;
+   text-decoration: none;
+   display: block;
+}
+.dp:hover .dropdownln {
+   display: block;
+}
